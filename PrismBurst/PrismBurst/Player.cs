@@ -12,7 +12,7 @@ namespace PrismBurst
         public int ComboCount { get; set; }
         public int ShuffleCount { get; protected set; }
         public Player()
-            : base("컬러매지션", 150, 30, 10, 5, 10, new Position(1, 5))
+            : base("컬러매지션", 150, 30, 10, 5, 4, new Position(1, 5))
         {
             Level = 1;
             Exp = 0;
