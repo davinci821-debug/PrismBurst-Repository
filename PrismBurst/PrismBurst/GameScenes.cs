@@ -7,8 +7,7 @@ namespace PrismBurst.Scenes
     {
         public void Draw(Player player, Monster monster, TileManager tileManager, int angle,
             int power, int playerBattleX, int monsterBattleX, BattleLog battleLog, int stage)
-        {
-            
+        {            
             Frame();
             PlayerUI(player);
             MonsterUI(monster);
